@@ -1,31 +1,32 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Freelance Full Stack Developer', // Replace it with your site title
+  author: 'Shpetim Haxhiu', // Update the author name
+  headerTitle: 'Pito Dev', // Replace it with your site title (visible in the header)
+  description:
+    'A personal blog by Pito Dev. I write about web development, programming, and tech careers. New posts every week.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  theme: 'system',
+  siteUrl: 'https://pito.dev', // Replace it with your site URL
+  siteRepo: 'https://github.com/shpetimhaxhiu/pito.dev', // Replace it with your repo link
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'hi@pito.dev', // Update the email address
+  github: 'https://github.com/shpetimhaxhiu', // Update the GitHub URL
+  twitter: 'https://twitter.com/CrazieLearner', // Update the Twitter URL
+  facebook: 'https://facebook.com/shpetimhaxhiu', // Update the Facebook URL
+  // youtube: 'https://youtube.com/PitoDev', // Update the YouTube URL
+  linkedin: 'https://www.linkedin.com/in/shpetimhaxhiu', // Update the LinkedIn URL
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
     // supports plausible, simpleAnalytics, umami or googleAnalytics
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
-    simpleAnalytics: false, // true or false
+    plausibleDataDomain: 'pito-dev.vercel.app', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    simpleAnalytics: true, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
-    posthogAnalyticsId: '', // posthog.init e.g. phc_5yXvArzvRdqtZIsHkEm3Fkkhm3d0bEYUXCaFISzqPSQ
+    googleAnalyticsId: 'G-6JCKQ6KWBW', // e.g. UA-000000-2 or G-XXXXXXX
+    posthogAnalyticsId: 'phc_XcLzbR7ARaf9LsHQM7TcY6d8uF7DTbeCnWvSifHDCRD', // posthog.init e.g. phc_5yXvArzvRdqtZIsHkEm3Fkkhm3d0bEYUXCaFISzqPSQ
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus

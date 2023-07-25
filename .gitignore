@@ -34,3 +34,23 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env
+
+gens
+
+optimized-Python.mdx 
+Python.mdx 
+article_generator.py 
+gpt_generator.py 
+strrr.py 
+tteess.py
+
+.vscode
+
+
+
+
+# Default articles
+data/blog/nested-route
+
+sparrowhawk.md
